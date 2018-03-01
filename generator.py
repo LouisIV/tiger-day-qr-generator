@@ -46,7 +46,7 @@ def process_csv(csv_location, export_location, start_row=False, end_row=False):
 					break
 			else:
 				# Create the QR Code and save to the export location
-				create_qr(row[1], export_location, row[2] + "_" + row[3] + ".png")
+				create_qr(row[1], export_location, row[2] + "_" + row[3] + ".jpeg")
 
 if __name__ == "__main__":
 	if len(sys.argv) > 2:
